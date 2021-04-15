@@ -1,66 +1,22 @@
-# Uniswap Interface
+# Unicopy
+UniswapV2的仿盘，部署在Rinkeby测试网上，访问地址：[https://happysammy.github.io/Unicopy/index.html](https://happysammy.github.io/Unicopy/index.html)
 
-[![Lint](https://github.com/Uniswap/uniswap-interface/workflows/Lint/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions?query=workflow%3ALint)
-[![Tests](https://github.com/Uniswap/uniswap-interface/workflows/Tests/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions?query=workflow%3ATests)
-[![Styled With Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/)
 
-An open source interface for Uniswap -- a protocol for decentralized exchange of Ethereum tokens.
+# 合约地址
 
-- Website: [uniswap.org](https://uniswap.org/)
-- Interface: [app.uniswap.org](https://app.uniswap.org)
-- Docs: [uniswap.org/docs/](https://uniswap.org/docs/)
-- Twitter: [@UniswapProtocol](https://twitter.com/UniswapProtocol)
-- Reddit: [/r/Uniswap](https://www.reddit.com/r/Uniswap/)
-- Email: [contact@uniswap.org](mailto:contact@uniswap.org)
-- Discord: [Uniswap](https://discord.gg/FCfyBSbCU5)
-- Whitepaper: [Link](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig)
+- Factory合约: 0x53368C6499534E7E05875c42243B4E6ecCdF6436
+- WETH合约: 0xc778417e063141139fce010982780140aa0cd5ab
+- Router02合约: 0xB173F2904f6505038D52ff77B68390b5917741Ee
+- ERC20代币MTT合约: 0x6419bd940bab165147ba110ddfbba853fe4aed66
+- ERC20代币SYD合约：0x0ec4e930424D9B7F5863EFf91053dA2B5dfbC6f2
+- Router02合约中的init_code_hash值:0x26b2fa3db94be411c9b1231b549fff2f966001e508e4907655542cc8d59d1ff8
 
-## Accessing the Uniswap Interface
 
-To access the Uniswap Interface, use an IPFS gateway link from the
-[latest release](https://github.com/Uniswap/uniswap-interface/releases/latest), 
-or visit [app.uniswap.org](https://app.uniswap.org).
+# 网站部署参考资料
 
-## Listing a token
+ - [https://blog.csdn.net/ywdhzxf/article/details/109676423](https://blog.csdn.net/ywdhzxf/article/details/109676423)
+ - 根据abi获取参数hash值网站：[https://abi.hashex.org/](https://abi.hashex.org/)
 
-Please see the
-[@uniswap/default-token-list](https://github.com/uniswap/default-token-list) 
-repository.
 
-## Development
 
-### Install Dependencies
 
-```bash
-yarn
-```
-
-### Run
-
-```bash
-yarn start
-```
-
-### Configuring the environment (optional)
-
-To have the interface default to a different network when a wallet is not connected:
-
-1. Make a copy of `.env` named `.env.local`
-2. Change `REACT_APP_NETWORK_ID` to `"{YOUR_NETWORK_ID}"`
-3. Change `REACT_APP_NETWORK_URL` to e.g. `"https://{YOUR_NETWORK_ID}.infura.io/v3/{YOUR_INFURA_KEY}"` 
-
-Note that the interface only works on testnets where both 
-[Uniswap V2](https://uniswap.org/docs/v2/smart-contracts/factory/) and 
-[multicall](https://github.com/makerdao/multicall) are deployed.
-The interface will not work on other networks.
-
-## Contributions
-
-**Please open all pull requests against the `main` branch.** 
-CI checks will run against all PRs.
-
-## Accessing Uniswap Interface V1
-
-The Uniswap Interface supports swapping against, and migrating or removing liquidity from Uniswap V1. However,
-if you would like to use Uniswap V1, the Uniswap V1 interface for mainnet and testnets is accessible via IPFS gateways 
-linked from the [v1.0.0 release](https://github.com/Uniswap/uniswap-interface/releases/tag/v1.0.0).

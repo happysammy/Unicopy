@@ -4,8 +4,8 @@
     "static/js/0.a63c49de.chunk.js.map": "/Unicopy/static/js/0.a63c49de.chunk.js.map",
     "static/js/1.9a7b634d.chunk.js": "/Unicopy/static/js/1.9a7b634d.chunk.js",
     "static/js/1.9a7b634d.chunk.js.map": "/Unicopy/static/js/1.9a7b634d.chunk.js.map",
-    "main.js": "/Unicopy/static/js/main.f7c43f34.chunk.js",
-    "main.js.map": "/Unicopy/static/js/main.f7c43f34.chunk.js.map",
+    "main.js": "/Unicopy/static/js/main.2d686e1e.chunk.js",
+    "main.js.map": "/Unicopy/static/js/main.2d686e1e.chunk.js.map",
     "runtime-main.js": "/Unicopy/static/js/runtime-main.976e0696.js",
     "runtime-main.js.map": "/Unicopy/static/js/runtime-main.976e0696.js.map",
     "static/css/4.8d6402b9.chunk.css": "/Unicopy/static/css/4.8d6402b9.chunk.css",
@@ -22,7 +22,7 @@
     "static/js/9.63d7652d.chunk.js": "/Unicopy/static/js/9.63d7652d.chunk.js",
     "static/js/9.63d7652d.chunk.js.map": "/Unicopy/static/js/9.63d7652d.chunk.js.map",
     "index.html": "/Unicopy/index.html",
-    "precache-manifest.5ec84db57b961bb05fd131a92e960396.js": "/Unicopy/precache-manifest.5ec84db57b961bb05fd131a92e960396.js",
+    "precache-manifest.e24c19a04a706762bed0fd23705f7010.js": "/Unicopy/precache-manifest.e24c19a04a706762bed0fd23705f7010.js",
     "service-worker.js": "/Unicopy/service-worker.js",
     "static/css/4.8d6402b9.chunk.css.map": "/Unicopy/static/css/4.8d6402b9.chunk.css.map",
     "static/js/4.87f58ccc.chunk.js.LICENSE.txt": "/Unicopy/static/js/4.87f58ccc.chunk.js.LICENSE.txt",
@@ -64,6 +64,6 @@
     "static/js/runtime-main.976e0696.js",
     "static/css/4.8d6402b9.chunk.css",
     "static/js/4.87f58ccc.chunk.js",
-    "static/js/main.f7c43f34.chunk.js"
+    "static/js/main.2d686e1e.chunk.js"
   ]
 }

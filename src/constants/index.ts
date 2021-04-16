@@ -5,6 +5,7 @@ import { fortmatic, injected, portis, walletconnect, walletlink } from '../conne
 
 export const ROUTER_ADDRESS = '0xB173F2904f6505038D52ff77B68390b5917741Ee'
 
+
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 
 export { PRELOADED_PROPOSALS } from './proposals'
